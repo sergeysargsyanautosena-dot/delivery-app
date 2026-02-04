@@ -114,7 +114,7 @@ export default function AdminPage() {
       return -1;
     };
 
-    const codeIdx = idx(["կոդ", "code", "barcode"]);
+    const codeIdx = idx(["կոդ", "code", "code"]);
     const specIdx = idx(["բնութագիր կոդ", "բնութագիր", "speccode", "firmcode"]);
     const nameIdx = idx(["անվանում", "name"]);
     const stockIdx = idx(["մնացորդ", "stock", "qty", "quantity"]);
