@@ -52,7 +52,7 @@ export default function AdminPage() {
         {items.map((p) => (
           <div key={p.id} className="border rounded-xl p-4 flex justify-between items-center gap-4">
             <div className="min-w-0">
-              <div className="text-sm opacity-70">Barcode՝ {p.barcode} • Ֆիրմ՝ {p.firmCode}</div>
+              <div className="text-sm opacity-70">code՝ {p.code} • Ֆիրմ՝ {p.firmCode}</div>
               <div className="font-semibold truncate">{p.name}</div>
             </div>
 
